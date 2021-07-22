@@ -1,8 +1,13 @@
 language: python
-
 python:
   - 3.9
-  - 3.8
 
 script:
-  - tests
+  - ButlerTests
+
+notifications:
+  email:
+    recipients:
+      - kyle.pyprojects@gmail.com
+    on_success: never
+    on_failure: always
