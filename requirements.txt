@@ -5,8 +5,6 @@ certifi==2020.12.5
 cffi @ file:///C:/ci/cffi_1606237165371/work
 chardet @ file:///C:/ci/chardet_1605296577955/work
 colorama==0.4.4
-conda==4.9.2
-conda-package-handling @ file:///C:/ci/conda-package-handling_1605484860147/work
 cryptography @ file:///C:/ci/cryptography_1607618721363/work
 idna @ file:///tmp/build/80754af9/idna_1593446292537/work
 iniconfig==1.1.1
