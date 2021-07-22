@@ -4,7 +4,7 @@ import Butler
 
 class MyTestCase(unittest.TestCase):
 
-    butler = Butler.Butler()
+    butler = Butler.Butler("Jarvis")
 
     def test_get(self):
         assert self.butler.get_name() == "Jarvis"
