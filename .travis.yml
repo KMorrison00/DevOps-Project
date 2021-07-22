@@ -4,8 +4,5 @@ python:
   - 3.9
   - 3.8
 
-before_script:
-  - composer install --no-interaction
-
 script:
   - vendor/bin/tests
